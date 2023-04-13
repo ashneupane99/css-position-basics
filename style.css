@@ -1,0 +1,32 @@
+/* available positions: static, initial, inherit, relative, absolute, fixed, sticky */
+
+
+
+
+.parent{
+    background: grey;
+    min-height: 90vh;
+    padding: 1rem;
+    font-size: 2rem;
+    position: relative;
+}
+
+.parent div{
+    min-height: 150px;
+    padding: 1rem;
+}
+.c1{
+    background: red;
+}
+.c2{
+    background: green;
+    /* position: relative;
+    position: absolute;
+    position: fixed; */
+    position: sticky;
+    top:20px;
+}
+.c3{
+    background: blue;
+    color: white;
+}
